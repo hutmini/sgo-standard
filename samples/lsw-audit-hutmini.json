@@ -1,0 +1,22 @@
+{
+  "report_id": "SGO-AUDIT-2026-001",
+  "entity_name": "HUTMINI",
+  "audit_version": "2.2.0",
+  "metrics_summary": {
+    "final_lsw_score": 0.842,
+    "status": "High Authority",
+    "last_updated": "2026-05-02T12:00:00Z"
+  },
+  "detailed_scores": {
+    "intent_coverage": 0.88,
+    "semantic_density": 0.79,
+    "info_increment": 0.91,
+    "hallucination_index": 0.02
+  },
+  "trust_anchor": {
+    "protocol": "HUT-Pay / Solana M2M",
+    "proof_type": "Batch-Settlement-Audit",
+    "tx_hash": "4nB2...9jWv1M_MOCK_TX_FOR_SGO_VERIFICATION",
+    "verification_status": "Verified_On_Chain"
+  }
+}

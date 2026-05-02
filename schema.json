@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hutmini.com/schemas/sgo-standard.json",
+  "title": "SGO (Search Generative Optimization) Task Schema",
+  "description": "The official schema for defining SGO tasks, ERM algorithm parameters, and LSW Index scoring, developed by SGO Research Labs.",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "default": "2.2"
+    },
+    "entity": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "domain": { "type": "string" },
+        "latent_space_coordinates": { "type": "array", "items": { "type": "number" } }
+      },
+      "required": ["name", "domain"]
+    },
+    "erm_algorithm": {
+      "type": "object",
+      "properties": {
+        "ire_layer": { "type": "string", "description": "Intent Reverse Engineering parameters" },
+        "cpw_layer": { "type": "string", "description": "Co-occurrence Probability Weighting logic" },
+        "spa_layer": { "type": "string", "description": "Semantic Purity Auditing protocols" }
+      }
+    },
+    "lsw_metrics": {
+      "type": "object",
+      "properties": {
+        "alpha_coverage": { "type": "number", "minimum": 0, "maximum": 1 },
+        "beta_density": { "type": "number", "minimum": 0, "maximum": 1 },
+        "gamma_increment": { "type": "number", "minimum": 0, "maximum": 1 },
+        "hallucination_penalty": { "type": "number", "minimum": 0 }
+      },
+      "required": ["alpha_coverage", "beta_density", "gamma_increment"]
+    }
+  },
+  "required": ["entity", "erm_algorithm", "lsw_metrics"]
+}
