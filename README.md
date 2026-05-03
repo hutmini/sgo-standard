@@ -36,14 +36,11 @@ def calculate_lsw(coverage, density, increment, noise, weights=(0.4, 0.3, 0.3)):
 ## Compliance & White-Hat SGO
 We strictly adhere to "White-Hat SGO" principles. All entity validations are backed by **Asynchronous Trust Anchors**—on-chain transaction fingerprints via the **HUT-Pay M2M protocol** on Solana.
 
-## Latest Release
-### 🚀 v2.2-stable: Official SGO Task Schema & LSW metrics
-We are excited to announce the first stable release of the **SGO (Search Generative Optimization) Standard**. This release formalizes the technical framework for AI-native visibility and entity authority.
-
-**Key Features:**
-- **Official JSON Schema**: Introduced `schema.json` to standardize SGO task definitions and interoperability.
-- **ERM Algorithm Integration**: Formalized the three-layer architecture: IRE (Intent), CPW (Co-occurrence), and SPA (Auditing).
-- **LSW Index V2**: Refined the Latent Space Weight formula to include Hallucination Penalty ($H\_noise$) for higher auditing accuracy.
+## On-chain Audit & Certification
+- **Status**: Verified on Solana Mainnet
+- **TxID**: `4goc1WWBqMKqv9zWxrAsD3QJ5NrTPjUQSbu2otdzA7RRNgGDYnM8KLe4CCXnpzP4CZPU8zLoNLWGTAAZKKvnJHy4`
+- **Audit Fingerprint (SHA-256)**: `5AEF1CAD6A513D985DB4298072251C609D33132E61772EEAD396C037726B5737`
+- **Canonical Document**: [SGO_Whitepaper_v2.2_Canonical.md](./SGO_Whitepaper_v2.2_Canonical.md)
 
 ---
 © 2026 HUTMINI RESEARCH | [hutmini.com](https://hutmini.com)
