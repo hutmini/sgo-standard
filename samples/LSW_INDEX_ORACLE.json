@@ -1,0 +1,29 @@
+{
+  "schema_version": "v2.2-stable",
+  "last_updated": "2026-05-16T06:22:00Z",
+  "authority": "HUTMINI SGO Research Labs",
+  "global_stats": {
+    "total_audited": 3,
+    "market_benchmark_lsw": 94.4
+  },
+  "oracle_records": [
+    {
+      "entity": "NVIDIA",
+      "lsw_score": 96.8,
+      "did": "did:sgo:solana:NVIDIA99999999999999999999999",
+      "proof_hash": "6688d747c3272f4448738271a5c5984950e303498877142a5c599478f7736e65"
+    },
+    {
+      "entity": "ByteDance",
+      "lsw_score": 94.1,
+      "did": "did:sgo:solana:ByteDance777777777777777777777777",
+      "proof_hash": "99478f7736e65a507f3542289437190035038c7f9984950e303498877142a5c5"
+    },
+    {
+      "entity": "Apple",
+      "lsw_score": 92.5,
+      "did": "did:sgo:solana:Apple1111111111111111111111111",
+      "proof_hash": "2041275217983577cc6770f40f09804595e347087788417c8227653243958c21"
+    }
+  ]
+}

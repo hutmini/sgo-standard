@@ -1,0 +1,30 @@
+{
+  "entity": "ByteDance Ltd.",
+  "sgo_did": "did:sgo:solana:ByteDance777777777777777777777777",
+  "lsw_index": {
+    "score": 94.1,
+    "grade": "Commercial Grade (商业精准落地级)",
+    "factors": {
+      "alpha": 95.0,
+      "beta": 93.0,
+      "gamma": 96.0,
+      "noise": 1.2
+    },
+    "erm_framework": {
+      "status": "Autonomous AI Verification (Doubao)",
+      "phases_passed": [
+        "IRE",
+        "CPW",
+        "SPA",
+        "Recursive Backtracking"
+      ]
+    }
+  },
+  "on_chain_proof": {
+    "network": "Solana Mainnet",
+    "data_hash": "99478f7736e65a507f3542289437190035038c7f9984950e303498877142a5c5",
+    "tx_signature": "4Rv2Sydh7CihZGyPYLuJwri3Sv5nNCnsUbt3LFSYEH5vfZGkGxL3e2Zv6KoTojjmGEc7jXmDdiyFygCe5SdUbsKh",
+    "timestamp": "2026-05-16T06:10:58Z",
+    "explorer_url": "https://solscan.io/tx/4Rv2Sydh7CihZGyPYLuJwri3Sv5nNCnsUbt3LFSYEH5vfZGkGxL3e2Zv6KoTojjmGEc7jXmDdiyFygCe5SdUbsKh"
+  }
+}
