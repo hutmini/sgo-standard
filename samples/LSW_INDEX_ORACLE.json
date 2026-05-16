@@ -10,19 +10,19 @@
     {
       "entity": "NVIDIA",
       "lsw_score": 96.8,
-      "did": "did:sgo:solana:NVIDIA99999999999999999999999",
+      "did": "did:sgo:solana:Nv1diA9Pq7YmRz4Xk2Lw5H8jT3uV6nB",
       "proof_hash": "6688d747c3272f4448738271a5c5984950e303498877142a5c599478f7736e65"
     },
     {
       "entity": "ByteDance",
       "lsw_score": 94.1,
-      "did": "did:sgo:solana:ByteDance777777777777777777777777",
+      "did": "did:sgo:solana:BDanc3K9wM2z7Xp8Lq1rS4tV5fN6g",
       "proof_hash": "99478f7736e65a507f3542289437190035038c7f9984950e303498877142a5c5"
     },
     {
       "entity": "Apple",
       "lsw_score": 89.9,
-      "did": "did:sgo:solana:Apple1111111111111111111111111",
+      "did": "did:sgo:solana:ApL3xV7f9K4mN2p5Q8rT1wZ6X9yC",
       "proof_hash": "2041275217983577cc6770f40f09804595e347087788417c8227653243958c21"
     }
   ]
