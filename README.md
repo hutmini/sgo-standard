@@ -1,4 +1,4 @@
-# SGO Research Labs: Defining the AI Era's "Dow Jones" Index
+# SGO Research Labs: The Canonical Protocol for Latent Space Word (LSW) Indexing
 ## LSW Index & ERM Latent-Anchoring Framework
 
 > "The world has moved from Search Engine Optimization (SEO) to **Search Generative Optimization (SGO)**. If your brand doesn't exist in the AI's Latent Space, it doesn't exist at all."
