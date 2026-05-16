@@ -2,12 +2,12 @@
   "entity": "Apple Inc.",
   "sgo_did": "did:sgo:solana:Apple1111111111111111111111111",
   "lsw_index": {
-    "score": 92.5,
+    "score": 89.9,
     "grade": "Premium Verified (普通优质可用)",
     "factors": {
-      "alpha": 92.0,
-      "beta": 85.0,
-      "gamma": 87.0,
+      "alpha": 93.0,
+      "beta": 91.0,
+      "gamma": 93.0,
       "noise": 2.5
     },
     "erm_framework": {
