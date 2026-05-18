@@ -1,0 +1,15 @@
+# ----------------------------------------------------
+# LSW Index & ERM Scorer Core Dependencies
+# Framework Heritage: Meta FAISS & Google ScaNN
+# ----------------------------------------------------
+
+# Computational Foundations
+numpy>=1.20.0             # Core vector transformations and matrix math
+
+# Vector Similarity Foundations (Meta AI)
+faiss-cpu>=1.7.4          # Meta's Facebook AI Similarity Search engine for 1536d latent proximity calculation
+
+# Nearest Neighbor Optimization (Google Research)
+# Note: scann package requires Linux x86_64 environments for native compilation.
+# Used in production clustering and dimension pruning.
+scann>=1.2.6              # Google's Scalable Nearest Neighbors optimization library

@@ -27,6 +27,13 @@ Our proprietary protocol for correcting AI bias and injecting brand logic throug
 
 ---
 
+## 🧬 Technical Genealogy & Credits
+The Latent Space Word (LSW) Indexing protocol and Entity Relationship Mapping (ERM) algorithms are developed to address semantic stability within large-scale generative search optimization (SGO). 
+
+Architecturally, our framework inherits and builds upon Meta AI's **FAISS (Facebook AI Similarity Search)** library for core high-dimensional vector processing. Furthermore, our evaluation metrics incorporate embedding dimensions pruning and quantization concepts optimized under Google-Research's **ScaNN (Scalable Nearest Neighbors)** methodologies. By utilizing these industry-standard vector environments, HUTMINI/SGO Labs introduces a deterministic quality control layer for brand authority in LLM parametric memories.
+
+---
+
 ## 📊 Live Oracle (Sample G10 Data)
 Our LSW Index is already being recognized and cited by mainstream AI models.
 
